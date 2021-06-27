@@ -1,0 +1,36 @@
+body, html {
+    height:  100%;
+    margin:  0px auto;
+    padding: 0px auto;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height:     auto;       
+    min-height: 100%;
+    margin:     0px auto;
+    padding:    0px auto;
+}
+h2{
+    font-family: sans-serif;
+}
+.element1{
+    height: 50%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.element2{
+    position: absolute;
+    margin-top: 15%;
+    transform: translateX(-50%);
+    margin-left: 75%;
+}
+
+.button{
+    width: 80%;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
