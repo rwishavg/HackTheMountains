@@ -30,7 +30,51 @@ h2{
     margin-left: 75%;
 }
 
-.button{
-    width: 80%;
+/* .button{
+    background-color: #ADFFCE;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 6px;
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-}
+
+
+
+/* button */
+.button {
+    border-radius: 4px;
+    background-color: #67b89d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 350px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
